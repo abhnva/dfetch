@@ -1,8 +1,8 @@
 #!/bin/bash 
 
 #Colors
-CYAN="\033[0;36m"
-RED="\033[0;31m"
+CYAN="\033[1;36m"
+RED="\033[1;31m"
 END="\e[0m"
 
 #Print Info
