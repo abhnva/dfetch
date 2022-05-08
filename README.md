@@ -2,10 +2,10 @@
 
 ![Bash Script Badge](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
+<img src="./Assets/Dfetch.png" height=190 />
+
 # Dfetch
 A **Bash** script to print **System Information**.
-
-![Demo](./Assets/Demo.png)
 
 <hr>
 
