@@ -1,13 +1,17 @@
 #!/bin/bash 
 
+#Colors
+CYAN="\033[0;36m"
+END="\e[0m"
+
 #Print Info
-echo "OS: $(lsb_release -d|awk '{print $2}')"
-echo "Release: $(lsb_release -rs)"
-echo "Codename: $(lsb_release -cs)"
-echo "Architecture: $(uname -m)"
-echo "Uptime: $(uptime -p)"
-echo "Hostname: $(hostname)"
-echo "Kernel: $(uname -r)"
-echo "CPU: $(lscpu | grep "Model name" | awk '{print $3,$4,$5}')"
-echo "RAM: $(free -h | grep "Mem" | awk '{print $2}')" 
-echo "Disk: $(df -h | grep "/$" | awk '{print $2}')"
+echo -e "${CYAN}OS:${END} $(lsb_release -d|awk '{print $2}')"
+echo -e "${CYAN}Release:${END} $(lsb_release -rs)"
+echo -e "${CYAN}Codename:${END} $(lsb_release -cs)"
+echo -e "${CYAN}Architecture:${END} $(uname -m)"
+echo -e "${CYAN}Uptime:${END} $(uptime -p)"
+echo -e "${CYAN}Hostname:${END} $(hostname)"
+echo -e "${CYAN}Kernel:${END} $(uname -r)"
+echo -e "${CYAN}CPU:${END} $(lscpu | grep "Model name" | awk '{print $3,$4,$5}')"
+echo -e "${CYAN}RAM:${END} $(free -h | grep "Mem" | awk '{print $2}')" 
+echo -e "${CYAN}Disk:${END} $(df -h | grep "/$" | awk '{print $2}')"
