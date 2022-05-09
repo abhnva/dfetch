@@ -15,6 +15,7 @@ echo -e "\t ${CYAN}Uptime${END} : ${RED}$(uptime -p)${END}"
 echo -e "\t ${CYAN}Hostname${END} : ${RED}$(hostname)${END}"
 echo -e "\t ${CYAN}User${END} : ${RED}$(whoami)${END}"
 echo -e "\t ${CYAN}DE${END} : ${RED}$(echo $XDG_CURRENT_DESKTOP)${END}"
+echo -e "\t ${CYAN}Session${END} : ${RED}$(echo $XDG_SESSION_TYPE)${END}"
 echo -e "\t ${CYAN}Kernel${END} : ${RED}$(uname -r)${END}"
 echo -e "\t ${CYAN}CPU${END} : ${RED}$(lscpu | grep "Model name" | awk '{print $3,$4,$5}') | Core(s): $(nproc)${END}"
 echo -e "\t ${CYAN}RAM${END} : ${RED}$(free -h | grep "Mem" | awk '{print $2}')"${END} 
