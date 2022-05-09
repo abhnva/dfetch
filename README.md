@@ -7,6 +7,8 @@
 # Dfetch
 A **Bash** script to print **System Information**.
 
+![Stage Badge](https://img.shields.io/badge/Stage-Alpha-blueviolet?style=flat-square)
+    
 <hr>
 
 </div>
