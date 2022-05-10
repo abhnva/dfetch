@@ -5,7 +5,7 @@
 <img src="./Assets/Dfetch.png" height=190 />
 
 # Dfetch
-A **Bash** script to print **System Information**.
+A **command-line** utility to print **system information**.
 
 ![Stage Badge](https://img.shields.io/badge/Stage-Alpha-blueviolet?style=flat-square)
     
