@@ -14,10 +14,13 @@ A **Bash** script to print **System Information**.
 </div>
 
 ## Usage
+### Installation
 1. Clone this repo.
 2. Navigate to the cloned folder.
     - `cd dfetch`
 3. Add execute permissions.
-    - `chmod +x dfetch.sh`
-4. Run the script.
-    - `./dfetch.sh`
+    - `chmod +x Install.sh`
+4. Run the install script.
+    - `./Install.sh`
+5. Run Dfetch.
+    - `dfetch`
