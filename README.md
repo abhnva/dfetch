@@ -20,4 +20,4 @@ A **Bash** script to print **System Information**.
 3. Add execute permissions.
     - `chmod +x dfetch.sh`
 4. Run the script.
-    - `sudo ./dfetch.sh`
+    - `./dfetch.sh`
