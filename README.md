@@ -25,3 +25,11 @@ A **command-line** utility to print **system information**.
     - `./Install.sh`
 5. Run Dfetch.
     - `dfetch`
+
+### Update
+1. Navigate to the cloned folder.
+    - `cd dfetch`
+2. Add execute permissions.
+    - `chmod +x Update.sh`
+3. Run the update script.
+    - `./Update.sh`
