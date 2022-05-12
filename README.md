@@ -8,6 +8,7 @@
 A **command-line** utility to print **system information**.
 
 ![Stage Badge](https://img.shields.io/badge/Stage-Alpha-blueviolet?style=flat-square)
+![PR Badge](https://img.shields.io/badge/PRs-Welcome-blueviolet?style=flat-square)    
     
 <hr>
 
