@@ -11,7 +11,7 @@ END="\e[0m"
 # OS Info
 echo -e "------------------------------------------------------"
 echo -e "\t ${GREEN}OS INFO${END}\n"
-echo -e "\t ${CYAN}OS${END} : ${RED}$(lsb_release -d|awk '{print $2}')${END}"
+echo -e "\t ${CYAN}OS${END} : ${RED}$(sudo lsb_release -d|awk '{print $2}')${END}"
 echo -e "\t ${CYAN}Release${END} : ${RED}$(lsb_release -rs)${END}"
 echo -e "\t ${CYAN}Codename${END} : ${RED}$(lsb_release -cs)${END}"
 echo -e "\t ${CYAN}Architecture${END} : ${RED}$(uname -m)${END}"
