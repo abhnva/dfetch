@@ -10,7 +10,6 @@ A **command-line** utility to print **system information**.
 <img src="./Assets/dfetch-demo.png" height=500 />
 
 ![Stage Badge](https://img.shields.io/badge/Stage-Alpha-blueviolet?style=flat-square)
-![PR Badge](https://img.shields.io/badge/PRs-Welcome-blueviolet?style=flat-square)    
     
 <hr>
 
